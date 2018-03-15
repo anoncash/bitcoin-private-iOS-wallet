@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC367BAF205ABC37008FF479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367BAE205ABC37008FF479 /* AppDelegate.swift */; };
+		EC367BB6205ABC37008FF479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC367BB5205ABC37008FF479 /* Assets.xcassets */; };
+		EC367BB9205ABC37008FF479 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC367BB7205ABC37008FF479 /* LaunchScreen.storyboard */; };
+		EC367BC4205ABC37008FF479 /* Bitcoin_PrivateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367BC3205ABC37008FF479 /* Bitcoin_PrivateTests.swift */; };
+		EC367BCF205ABC37008FF479 /* Bitcoin_PrivateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367BCE205ABC37008FF479 /* Bitcoin_PrivateUITests.swift */; };
+		EC367BF2205ABD7F008FF479 /* WalletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC367BDD205ABD7F008FF479 /* WalletViewController.xib */; };
+		EC367BF3205ABD7F008FF479 /* VerificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC367BDF205ABD7F008FF479 /* VerificationViewController.xib */; };
+		EC367BF4205ABD7F008FF479 /* WalletTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367BE0205ABD7F008FF479 /* WalletTitleViewController.swift */; };
+		EC367BF5205ABD7F008FF479 /* MnemonicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC367BE1205ABD7F008FF479 /* MnemonicViewController.xib */; };
+		EC367BF6205ABD7F008FF479 /* MnemonicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367BE2205ABD7F008FF479 /* MnemonicViewController.swift */; };
+		EC367BF7205ABD7F008FF479 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367BE3205ABD7F008FF479 /* VerificationViewController.swift */; };
+		EC367BF8205ABD7F008FF479 /* WalletTitleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC367BE4205ABD7F008FF479 /* WalletTitleViewController.xib */; };
+		EC367BF9205ABD7F008FF479 /* PinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367BE5205ABD7F008FF479 /* PinViewController.swift */; };
+		EC367BFA205ABD7F008FF479 /* PinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC367BE6205ABD7F008FF479 /* PinViewController.xib */; };
+		EC367BFB205ABD7F008FF479 /* SendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC367BE7205ABD7F008FF479 /* SendViewController.xib */; };
+		EC367BFC205ABD7F008FF479 /* ReceiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367BE8205ABD7F008FF479 /* ReceiveViewController.swift */; };
+		EC367BFD205ABD7F008FF479 /* ScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC367BE9205ABD7F008FF479 /* ScanViewController.xib */; };
+		EC367BFE205ABD7F008FF479 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367BEA205ABD7F008FF479 /* WalletViewController.swift */; };
+		EC367BFF205ABD7F008FF479 /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC367BEB205ABD7F008FF479 /* LaunchViewController.xib */; };
+		EC367C00205ABD7F008FF479 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367BEC205ABD7F008FF479 /* SendViewController.swift */; };
+		EC367C01205ABD7F008FF479 /* SendAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367BED205ABD7F008FF479 /* SendAmountViewController.swift */; };
+		EC367C02205ABD7F008FF479 /* SendAmountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC367BEE205ABD7F008FF479 /* SendAmountViewController.xib */; };
+		EC367C03205ABD7F008FF479 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367BEF205ABD7F008FF479 /* ScanViewController.swift */; };
+		EC367C04205ABD7F008FF479 /* ReceiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC367BF0205ABD7F008FF479 /* ReceiveViewController.xib */; };
+		EC367C05205ABD7F008FF479 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367BF1205ABD7F008FF479 /* LaunchViewController.swift */; };
+		EC367C0B205ABF48008FF479 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367C07205ABF48008FF479 /* Constants.swift */; };
+		EC367C0D205ABF48008FF479 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367C09205ABF48008FF479 /* AppNavigationController.swift */; };
+		EC367C0E205ABF48008FF479 /* NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367C0A205ABF48008FF479 /* NibLoader.swift */; };
+		EC367C1B205ABF52008FF479 /* WordSuggestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367C11205ABF52008FF479 /* WordSuggestionCell.swift */; };
+		EC367C1C205ABF52008FF479 /* WordSuggestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC367C12205ABF52008FF479 /* WordSuggestionCell.xib */; };
+		EC367C1D205ABF52008FF479 /* TransactionHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC367C13205ABF52008FF479 /* TransactionHistoryCell.xib */; };
+		EC367C1E205ABF52008FF479 /* TransactionHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367C14205ABF52008FF479 /* TransactionHistoryCell.swift */; };
+		EC367C1F205ABF52008FF479 /* WalletCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC367C15205ABF52008FF479 /* WalletCell.xib */; };
+		EC367C20205ABF52008FF479 /* WalletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367C16205ABF52008FF479 /* WalletCell.swift */; };
+		EC367C21205ABF52008FF479 /* PillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367C17205ABF52008FF479 /* PillView.swift */; };
+		EC367C22205ABF52008FF479 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367C18205ABF52008FF479 /* AppButton.swift */; };
+		EC367C23205ABF52008FF479 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367C19205ABF52008FF479 /* PinView.swift */; };
+		EC367C24205ABF52008FF479 /* PinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC367C1A205ABF52008FF479 /* PinView.xib */; };
+		EC367C28205ABFD4008FF479 /* UIColor+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367C26205ABFD4008FF479 /* UIColor+Gradient.swift */; };
+		EC367C29205ABFD4008FF479 /* UIView+Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC367C27205ABFD4008FF479 /* UIView+Shake.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC367BC0205ABC37008FF479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC367BA3205ABC37008FF479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC367BAA205ABC37008FF479;
+			remoteInfo = "Bitcoin Private";
+		};
+		EC367BCB205ABC37008FF479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC367BA3205ABC37008FF479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC367BAA205ABC37008FF479;
+			remoteInfo = "Bitcoin Private";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC367BAB205ABC37008FF479 /* Bitcoin Private.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin Private.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC367BAE205ABC37008FF479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC367BB5205ABC37008FF479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC367BB8205ABC37008FF479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC367BBA205ABC37008FF479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC367BBF205ABC37008FF479 /* Bitcoin PrivateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitcoin PrivateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC367BC3205ABC37008FF479 /* Bitcoin_PrivateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitcoin_PrivateTests.swift; sourceTree = "<group>"; };
+		EC367BC5205ABC37008FF479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC367BCA205ABC37008FF479 /* Bitcoin PrivateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitcoin PrivateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC367BCE205ABC37008FF479 /* Bitcoin_PrivateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitcoin_PrivateUITests.swift; sourceTree = "<group>"; };
+		EC367BD0205ABC37008FF479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC367BDD205ABD7F008FF479 /* WalletViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalletViewController.xib; sourceTree = "<group>"; };
+		EC367BDF205ABD7F008FF479 /* VerificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerificationViewController.xib; sourceTree = "<group>"; };
+		EC367BE0205ABD7F008FF479 /* WalletTitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletTitleViewController.swift; sourceTree = "<group>"; };
+		EC367BE1205ABD7F008FF479 /* MnemonicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MnemonicViewController.xib; sourceTree = "<group>"; };
+		EC367BE2205ABD7F008FF479 /* MnemonicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MnemonicViewController.swift; sourceTree = "<group>"; };
+		EC367BE3205ABD7F008FF479 /* VerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		EC367BE4205ABD7F008FF479 /* WalletTitleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalletTitleViewController.xib; sourceTree = "<group>"; };
+		EC367BE5205ABD7F008FF479 /* PinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinViewController.swift; sourceTree = "<group>"; };
+		EC367BE6205ABD7F008FF479 /* PinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinViewController.xib; sourceTree = "<group>"; };
+		EC367BE7205ABD7F008FF479 /* SendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendViewController.xib; sourceTree = "<group>"; };
+		EC367BE8205ABD7F008FF479 /* ReceiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiveViewController.swift; sourceTree = "<group>"; };
+		EC367BE9205ABD7F008FF479 /* ScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanViewController.xib; sourceTree = "<group>"; };
+		EC367BEA205ABD7F008FF479 /* WalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		EC367BEB205ABD7F008FF479 /* LaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
+		EC367BEC205ABD7F008FF479 /* SendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
+		EC367BED205ABD7F008FF479 /* SendAmountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendAmountViewController.swift; sourceTree = "<group>"; };
+		EC367BEE205ABD7F008FF479 /* SendAmountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendAmountViewController.xib; sourceTree = "<group>"; };
+		EC367BEF205ABD7F008FF479 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		EC367BF0205ABD7F008FF479 /* ReceiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiveViewController.xib; sourceTree = "<group>"; };
+		EC367BF1205ABD7F008FF479 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		EC367C07205ABF48008FF479 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EC367C09205ABF48008FF479 /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
+		EC367C0A205ABF48008FF479 /* NibLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoader.swift; sourceTree = "<group>"; };
+		EC367C11205ABF52008FF479 /* WordSuggestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordSuggestionCell.swift; sourceTree = "<group>"; };
+		EC367C12205ABF52008FF479 /* WordSuggestionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WordSuggestionCell.xib; sourceTree = "<group>"; };
+		EC367C13205ABF52008FF479 /* TransactionHistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionHistoryCell.xib; sourceTree = "<group>"; };
+		EC367C14205ABF52008FF479 /* TransactionHistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryCell.swift; sourceTree = "<group>"; };
+		EC367C15205ABF52008FF479 /* WalletCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalletCell.xib; sourceTree = "<group>"; };
+		EC367C16205ABF52008FF479 /* WalletCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletCell.swift; sourceTree = "<group>"; };
+		EC367C17205ABF52008FF479 /* PillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PillView.swift; sourceTree = "<group>"; };
+		EC367C18205ABF52008FF479 /* AppButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		EC367C19205ABF52008FF479 /* PinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		EC367C1A205ABF52008FF479 /* PinView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinView.xib; sourceTree = "<group>"; };
+		EC367C26205ABFD4008FF479 /* UIColor+Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Gradient.swift"; sourceTree = "<group>"; };
+		EC367C27205ABFD4008FF479 /* UIView+Shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shake.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC367BA8205ABC37008FF479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC367BBC205ABC37008FF479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC367BC7205ABC37008FF479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC367BA2205ABC37008FF479 = {
+			isa = PBXGroup;
+			children = (
+				EC367BAD205ABC37008FF479 /* Bitcoin Private */,
+				EC367BC2205ABC37008FF479 /* Bitcoin PrivateTests */,
+				EC367BCD205ABC37008FF479 /* Bitcoin PrivateUITests */,
+				EC367BAC205ABC37008FF479 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC367BAC205ABC37008FF479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC367BAB205ABC37008FF479 /* Bitcoin Private.app */,
+				EC367BBF205ABC37008FF479 /* Bitcoin PrivateTests.xctest */,
+				EC367BCA205ABC37008FF479 /* Bitcoin PrivateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC367BAD205ABC37008FF479 /* Bitcoin Private */ = {
+			isa = PBXGroup;
+			children = (
+				EC367BAE205ABC37008FF479 /* AppDelegate.swift */,
+				EC367C25205ABFD4008FF479 /* Extensions */,
+				EC367C0F205ABF52008FF479 /* Views */,
+				EC367C06205ABF48008FF479 /* Utils */,
+				EC367BDC205ABD7F008FF479 /* View Controllers */,
+				EC367BB5205ABC37008FF479 /* Assets.xcassets */,
+				EC367BB7205ABC37008FF479 /* LaunchScreen.storyboard */,
+				EC367BBA205ABC37008FF479 /* Info.plist */,
+			);
+			path = "Bitcoin Private";
+			sourceTree = "<group>";
+		};
+		EC367BC2205ABC37008FF479 /* Bitcoin PrivateTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC367BC3205ABC37008FF479 /* Bitcoin_PrivateTests.swift */,
+				EC367BC5205ABC37008FF479 /* Info.plist */,
+			);
+			path = "Bitcoin PrivateTests";
+			sourceTree = "<group>";
+		};
+		EC367BCD205ABC37008FF479 /* Bitcoin PrivateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC367BCE205ABC37008FF479 /* Bitcoin_PrivateUITests.swift */,
+				EC367BD0205ABC37008FF479 /* Info.plist */,
+			);
+			path = "Bitcoin PrivateUITests";
+			sourceTree = "<group>";
+		};
+		EC367BDC205ABD7F008FF479 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC367BDE205ABD7F008FF479 /* Wallet Creation and Restoration */,
+				EC367BF1205ABD7F008FF479 /* LaunchViewController.swift */,
+				EC367BEB205ABD7F008FF479 /* LaunchViewController.xib */,
+				EC367BEF205ABD7F008FF479 /* ScanViewController.swift */,
+				EC367BE9205ABD7F008FF479 /* ScanViewController.xib */,
+				EC367BEC205ABD7F008FF479 /* SendViewController.swift */,
+				EC367BE7205ABD7F008FF479 /* SendViewController.xib */,
+				EC367BED205ABD7F008FF479 /* SendAmountViewController.swift */,
+				EC367BEE205ABD7F008FF479 /* SendAmountViewController.xib */,
+				EC367BE8205ABD7F008FF479 /* ReceiveViewController.swift */,
+				EC367BF0205ABD7F008FF479 /* ReceiveViewController.xib */,
+				EC367BEA205ABD7F008FF479 /* WalletViewController.swift */,
+				EC367BDD205ABD7F008FF479 /* WalletViewController.xib */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EC367BDE205ABD7F008FF479 /* Wallet Creation and Restoration */ = {
+			isa = PBXGroup;
+			children = (
+				EC367BE2205ABD7F008FF479 /* MnemonicViewController.swift */,
+				EC367BE1205ABD7F008FF479 /* MnemonicViewController.xib */,
+				EC367BE5205ABD7F008FF479 /* PinViewController.swift */,
+				EC367BE6205ABD7F008FF479 /* PinViewController.xib */,
+				EC367BE3205ABD7F008FF479 /* VerificationViewController.swift */,
+				EC367BDF205ABD7F008FF479 /* VerificationViewController.xib */,
+				EC367BE0205ABD7F008FF479 /* WalletTitleViewController.swift */,
+				EC367BE4205ABD7F008FF479 /* WalletTitleViewController.xib */,
+			);
+			path = "Wallet Creation and Restoration";
+			sourceTree = "<group>";
+		};
+		EC367C06205ABF48008FF479 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EC367C07205ABF48008FF479 /* Constants.swift */,
+				EC367C09205ABF48008FF479 /* AppNavigationController.swift */,
+				EC367C0A205ABF48008FF479 /* NibLoader.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EC367C0F205ABF52008FF479 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC367C10205ABF52008FF479 /* Cells */,
+				EC367C17205ABF52008FF479 /* PillView.swift */,
+				EC367C18205ABF52008FF479 /* AppButton.swift */,
+				EC367C19205ABF52008FF479 /* PinView.swift */,
+				EC367C1A205ABF52008FF479 /* PinView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC367C10205ABF52008FF479 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EC367C11205ABF52008FF479 /* WordSuggestionCell.swift */,
+				EC367C12205ABF52008FF479 /* WordSuggestionCell.xib */,
+				EC367C14205ABF52008FF479 /* TransactionHistoryCell.swift */,
+				EC367C13205ABF52008FF479 /* TransactionHistoryCell.xib */,
+				EC367C16205ABF52008FF479 /* WalletCell.swift */,
+				EC367C15205ABF52008FF479 /* WalletCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EC367C25205ABFD4008FF479 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EC367C26205ABFD4008FF479 /* UIColor+Gradient.swift */,
+				EC367C27205ABFD4008FF479 /* UIView+Shake.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC367BAA205ABC37008FF479 /* Bitcoin Private */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC367BD3205ABC38008FF479 /* Build configuration list for PBXNativeTarget "Bitcoin Private" */;
+			buildPhases = (
+				EC367BA7205ABC37008FF479 /* Sources */,
+				EC367BA8205ABC37008FF479 /* Frameworks */,
+				EC367BA9205ABC37008FF479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bitcoin Private";
+			productName = "Bitcoin Private";
+			productReference = EC367BAB205ABC37008FF479 /* Bitcoin Private.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC367BBE205ABC37008FF479 /* Bitcoin PrivateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC367BD6205ABC38008FF479 /* Build configuration list for PBXNativeTarget "Bitcoin PrivateTests" */;
+			buildPhases = (
+				EC367BBB205ABC37008FF479 /* Sources */,
+				EC367BBC205ABC37008FF479 /* Frameworks */,
+				EC367BBD205ABC37008FF479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC367BC1205ABC37008FF479 /* PBXTargetDependency */,
+			);
+			name = "Bitcoin PrivateTests";
+			productName = "Bitcoin PrivateTests";
+			productReference = EC367BBF205ABC37008FF479 /* Bitcoin PrivateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC367BC9205ABC37008FF479 /* Bitcoin PrivateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC367BD9205ABC38008FF479 /* Build configuration list for PBXNativeTarget "Bitcoin PrivateUITests" */;
+			buildPhases = (
+				EC367BC6205ABC37008FF479 /* Sources */,
+				EC367BC7205ABC37008FF479 /* Frameworks */,
+				EC367BC8205ABC37008FF479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC367BCC205ABC37008FF479 /* PBXTargetDependency */,
+			);
+			name = "Bitcoin PrivateUITests";
+			productName = "Bitcoin PrivateUITests";
+			productReference = EC367BCA205ABC37008FF479 /* Bitcoin PrivateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC367BA3205ABC37008FF479 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Satraj Bambra";
+				TargetAttributes = {
+					EC367BAA205ABC37008FF479 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EC367BBE205ABC37008FF479 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC367BAA205ABC37008FF479;
+					};
+					EC367BC9205ABC37008FF479 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC367BAA205ABC37008FF479;
+					};
+				};
+			};
+			buildConfigurationList = EC367BA6205ABC37008FF479 /* Build configuration list for PBXProject "Bitcoin Private" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC367BA2205ABC37008FF479;
+			productRefGroup = EC367BAC205ABC37008FF479 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC367BAA205ABC37008FF479 /* Bitcoin Private */,
+				EC367BBE205ABC37008FF479 /* Bitcoin PrivateTests */,
+				EC367BC9205ABC37008FF479 /* Bitcoin PrivateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC367BA9205ABC37008FF479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC367C04205ABD7F008FF479 /* ReceiveViewController.xib in Resources */,
+				EC367BFD205ABD7F008FF479 /* ScanViewController.xib in Resources */,
+				EC367BFB205ABD7F008FF479 /* SendViewController.xib in Resources */,
+				EC367BF5205ABD7F008FF479 /* MnemonicViewController.xib in Resources */,
+				EC367BB9205ABC37008FF479 /* LaunchScreen.storyboard in Resources */,
+				EC367BF3205ABD7F008FF479 /* VerificationViewController.xib in Resources */,
+				EC367C1C205ABF52008FF479 /* WordSuggestionCell.xib in Resources */,
+				EC367BB6205ABC37008FF479 /* Assets.xcassets in Resources */,
+				EC367BF8205ABD7F008FF479 /* WalletTitleViewController.xib in Resources */,
+				EC367C1D205ABF52008FF479 /* TransactionHistoryCell.xib in Resources */,
+				EC367BFF205ABD7F008FF479 /* LaunchViewController.xib in Resources */,
+				EC367C02205ABD7F008FF479 /* SendAmountViewController.xib in Resources */,
+				EC367BF2205ABD7F008FF479 /* WalletViewController.xib in Resources */,
+				EC367C1F205ABF52008FF479 /* WalletCell.xib in Resources */,
+				EC367C24205ABF52008FF479 /* PinView.xib in Resources */,
+				EC367BFA205ABD7F008FF479 /* PinViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC367BBD205ABC37008FF479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC367BC8205ABC37008FF479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC367BA7205ABC37008FF479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC367BF6205ABD7F008FF479 /* MnemonicViewController.swift in Sources */,
+				EC367C21205ABF52008FF479 /* PillView.swift in Sources */,
+				EC367BF4205ABD7F008FF479 /* WalletTitleViewController.swift in Sources */,
+				EC367C00205ABD7F008FF479 /* SendViewController.swift in Sources */,
+				EC367C03205ABD7F008FF479 /* ScanViewController.swift in Sources */,
+				EC367BF9205ABD7F008FF479 /* PinViewController.swift in Sources */,
+				EC367C1E205ABF52008FF479 /* TransactionHistoryCell.swift in Sources */,
+				EC367C29205ABFD4008FF479 /* UIView+Shake.swift in Sources */,
+				EC367C20205ABF52008FF479 /* WalletCell.swift in Sources */,
+				EC367C23205ABF52008FF479 /* PinView.swift in Sources */,
+				EC367BF7205ABD7F008FF479 /* VerificationViewController.swift in Sources */,
+				EC367BFC205ABD7F008FF479 /* ReceiveViewController.swift in Sources */,
+				EC367C0B205ABF48008FF479 /* Constants.swift in Sources */,
+				EC367C05205ABD7F008FF479 /* LaunchViewController.swift in Sources */,
+				EC367C22205ABF52008FF479 /* AppButton.swift in Sources */,
+				EC367C0D205ABF48008FF479 /* AppNavigationController.swift in Sources */,
+				EC367C1B205ABF52008FF479 /* WordSuggestionCell.swift in Sources */,
+				EC367C0E205ABF48008FF479 /* NibLoader.swift in Sources */,
+				EC367C28205ABFD4008FF479 /* UIColor+Gradient.swift in Sources */,
+				EC367C01205ABD7F008FF479 /* SendAmountViewController.swift in Sources */,
+				EC367BFE205ABD7F008FF479 /* WalletViewController.swift in Sources */,
+				EC367BAF205ABC37008FF479 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC367BBB205ABC37008FF479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC367BC4205ABC37008FF479 /* Bitcoin_PrivateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC367BC6205ABC37008FF479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC367BCF205ABC37008FF479 /* Bitcoin_PrivateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC367BC1205ABC37008FF479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC367BAA205ABC37008FF479 /* Bitcoin Private */;
+			targetProxy = EC367BC0205ABC37008FF479 /* PBXContainerItemProxy */;
+		};
+		EC367BCC205ABC37008FF479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC367BAA205ABC37008FF479 /* Bitcoin Private */;
+			targetProxy = EC367BCB205ABC37008FF479 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC367BB7205ABC37008FF479 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC367BB8205ABC37008FF479 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC367BD1205ABC38008FF479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC367BD2205ABC38008FF479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC367BD4205ABC38008FF479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C24FP5V5L;
+				INFOPLIST_FILE = "Bitcoin Private/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.btcp.Bitcoin-Private";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EC367BD5205ABC38008FF479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C24FP5V5L;
+				INFOPLIST_FILE = "Bitcoin Private/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.btcp.Bitcoin-Private";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EC367BD7205ABC38008FF479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C24FP5V5L;
+				INFOPLIST_FILE = "Bitcoin PrivateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.btcp.Bitcoin-PrivateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitcoin Private.app/Bitcoin Private";
+			};
+			name = Debug;
+		};
+		EC367BD8205ABC38008FF479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C24FP5V5L;
+				INFOPLIST_FILE = "Bitcoin PrivateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.btcp.Bitcoin-PrivateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitcoin Private.app/Bitcoin Private";
+			};
+			name = Release;
+		};
+		EC367BDA205ABC38008FF479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C24FP5V5L;
+				INFOPLIST_FILE = "Bitcoin PrivateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.btcp.Bitcoin-PrivateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bitcoin Private";
+			};
+			name = Debug;
+		};
+		EC367BDB205ABC38008FF479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2C24FP5V5L;
+				INFOPLIST_FILE = "Bitcoin PrivateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.btcp.Bitcoin-PrivateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bitcoin Private";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC367BA6205ABC37008FF479 /* Build configuration list for PBXProject "Bitcoin Private" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC367BD1205ABC38008FF479 /* Debug */,
+				EC367BD2205ABC38008FF479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC367BD3205ABC38008FF479 /* Build configuration list for PBXNativeTarget "Bitcoin Private" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC367BD4205ABC38008FF479 /* Debug */,
+				EC367BD5205ABC38008FF479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC367BD6205ABC38008FF479 /* Build configuration list for PBXNativeTarget "Bitcoin PrivateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC367BD7205ABC38008FF479 /* Debug */,
+				EC367BD8205ABC38008FF479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC367BD9205ABC38008FF479 /* Build configuration list for PBXNativeTarget "Bitcoin PrivateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC367BDA205ABC38008FF479 /* Debug */,
+				EC367BDB205ABC38008FF479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC367BA3205ABC37008FF479 /* Project object */;
+}
